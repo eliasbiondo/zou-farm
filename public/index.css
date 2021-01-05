@@ -1,0 +1,21 @@
+:root {
+    font-family: 'Chivo', sans-serif;
+    font-size: 62.5%;
+    --primary: #66BB6A;
+    --hovered: #4F8952
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+}
