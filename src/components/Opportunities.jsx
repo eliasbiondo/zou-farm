@@ -2,9 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 import {Subtitle} from '../components/Subtitle'
 import { Paragraph } from './Paragraph';
-import { FlexRow } from './FlexRow';
 import { Card } from './Card';
-import { ResponsiveGrid } from './ResponsiveGrid';
+import { ResponsiveFlex } from './ResponsiveFlex';
+import { HorizontalRule } from './HorizontalRule';
 
 const OpportunitiesStyle = styled.div`
     width: 100%;
@@ -19,7 +19,7 @@ export function Opportunities(props) {
         <OpportunitiesStyle>
             <Subtitle textalign="center">New Opportunities</Subtitle>
             <Paragraph align="center" marginbottom="10rem" width="56rem">We are the first and the only crowdfunding platform enabling you to help finance our farmers    </Paragraph>
-            <ResponsiveGrid>
+            <ResponsiveFlex>
                 <Card iconsrc="/images/farmers-icon.svg" iconalt="Farmers icon" title="Connect with our 
                 farmers" description="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione" textcolor="black" bgcolor="white" boxshadow="right"/>
 
@@ -27,7 +27,8 @@ export function Opportunities(props) {
 
                 <Card iconsrc="/images/ecohand-icon.svg" iconalt="Eco icon" title="Social Impact 
                 Invesment" description="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque " textcolor="black" bgcolor="white" boxshadow="left"/>
-            </ResponsiveGrid>
+            </ResponsiveFlex>
+            <HorizontalRule margintop="2rem"/>
         </OpportunitiesStyle>
 
     )

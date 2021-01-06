@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import {Title} from '../components/Title';
 import {Paragraph} from './Paragraph';
 import {Button} from '../components/Button'
+import {Link} from 'react-router-dom'
 
 const BannerStyle = styled.header`
     margin-top: ${props => props.margintop};
@@ -15,7 +16,8 @@ export function MainBanner(props) {
         <BannerStyle margintop="5rem" marginbottom="15rem">
             <Title color="black">A New Way to Invest in Agriculture</Title>
             <Paragraph color="black" margintop="2rem">Zou provides farmes, ranchers, private foresters, and agricultural producers with online self service applications and educational materials.</Paragraph>
-            <Button color="white" margintop="2rem" bgcolor="var(--primary)" hoveredbgcolor="var(--hovered)">Invest Now</Button>
+            <Button to="teste" color="white" margintop="2rem" bgcolor="var(--primary)" hoveredbgcolor="var(--hovered)" filter="drop-shadow(0px 13px 20px rgba(118, 196, 125, 0.411204))">Invest Now</Button>
+            
         </BannerStyle>
     )
 }

@@ -15,12 +15,9 @@ export const SignBtn = styled(Link)`
     border-radius: 0.5rem;
     margin: 0rem 1.5rem;
     padding-left: 2rem;
-
     background: url('/images/sign-icon-white.svg') no-repeat 2rem center;
     background-size: 2rem;
 
-
-    transition: background-image 0.5s;
     transition: transform 0.5s;
 
     &:hover {

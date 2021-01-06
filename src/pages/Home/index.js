@@ -13,6 +13,7 @@ import {SignBtn} from '../../components/SignBtn'
 import {HamburguerMenu} from '../../components/HamburguerBtn'
 import {MainBanner} from '../../components/MainBanner'
 import {Opportunities} from '../../components/Opportunities'
+import { NewPosts } from '../../components/NewPosts';
 
 function Home(){
 
@@ -77,6 +78,12 @@ function Home(){
             <Section opportunities>
                 <Container>
                     <Opportunities />
+                </Container>
+            </Section>
+
+            <Section newposts>
+                <Container>
+                    <NewPosts />
                 </Container>
             </Section>
        </div>

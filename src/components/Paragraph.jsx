@@ -8,4 +8,5 @@ export const Paragraph = styled.p`
     margin-top: ${props => props.margintop};
     margin-bottom: ${props => props.marginbottom};
     text-align: ${props => props.align || 'left'};
+    max-width: ${props => props.maxwidth || 'auto'};
 ` 
