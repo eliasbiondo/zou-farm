@@ -3,10 +3,11 @@ import styled from 'styled-components';
 
 const CardStyle = styled.div`
     display: flex;
+    flex: 1;
     flex-direction: column;
     align-items: flex-start;
-    width: 33rem;
-    height: 33rem;
+    min-width: 30rem;
+    height: 35rem;
     margin: 0rem 1rem;
     margin-bottom: 10rem;
     padding: 6.5rem 4.8rem 0rem 4.8rem;

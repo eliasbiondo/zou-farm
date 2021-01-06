@@ -21,7 +21,7 @@ export function Opportunities(props) {
             <Paragraph align="center" marginbottom="10rem" width="56rem">We are the first and the only crowdfunding platform enabling you to help finance our farmers    </Paragraph>
             <ResponsiveFlex>
                 <Card iconsrc="/images/farmers-icon.svg" iconalt="Farmers icon" title="Connect with our 
-                farmers" description="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione" textcolor="black" bgcolor="white" boxshadow="right"/>
+                farmers" description="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia." textcolor="black" bgcolor="white" boxshadow="right"/>
 
                 <Card iconsrc="/images/ladder-icon.svg" iconalt="Ladder icon" title="Grow your bussiness" description="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore" textcolor="white" bgcolor="var(--primary)" boxshadow="center"/>
 
