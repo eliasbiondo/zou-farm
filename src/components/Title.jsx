@@ -5,4 +5,5 @@ export const Title = styled.h1`
     font-weight: bold;
     line-height: 6.4rem;
     color: ${props => props.color};
+    text-align: ${props => props.textalign || 'left'}
 ` 

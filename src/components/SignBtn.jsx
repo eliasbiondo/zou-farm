@@ -35,4 +35,10 @@ export const SignBtn = styled(Link)`
     & p {
         margin-left: 0.8rem;
     }
+
+    @media (max-width: 1060px) {
+        &.menu {
+            display: none;
+        }
+    }
 `

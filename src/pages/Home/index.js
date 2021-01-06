@@ -58,7 +58,7 @@ function Home(){
                                 </Nav>
                             </FlexRow>
                             <FlexRow>
-                                <SignBtn to='/login'>
+                                <SignBtn className='menu' to='/login'>
                                     <p>Sign Up</p>
                                 </SignBtn>
                                 <HamburguerMenu onClickFunction={print} />
