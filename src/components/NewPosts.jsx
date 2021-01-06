@@ -12,9 +12,9 @@ const NewPostsStyle = styled.div`
 
 const PostCards = styled.div`
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(51.2rem, 1fr)); /* see notes below */
+    grid-gap: 2rem;
 `
 
 export function NewPosts() {
