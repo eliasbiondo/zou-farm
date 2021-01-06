@@ -5,7 +5,7 @@ import { Button } from './Button'
 const NewPostCardStyle = styled.div`
     flex: 1;
     width: 51.2rem;
-    height: 41.5rem;
+    height: 45.5rem;
     margin: 0 1rem;
     padding: 4.8rem 7.2rem;
     margin-bottom: 5rem;
