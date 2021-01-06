@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
-export const Ul = styled.ul`
+export const FlexRow = styled.div`
     display: flex;
-    justify-content: center;
 `
 

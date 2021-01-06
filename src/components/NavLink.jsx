@@ -1,7 +1,11 @@
 import { Link } from 'react-router-dom';
-import styled, { createGlobalStyle } from 'styled-components';
+import styled from 'styled-components';
 
 export const NavLink = styled(Link)`
     color: inherit;
+
+    &:hover .logo-path {
+        ${props => props.logo ? `fill: var(--hovered);` : ``}
+    }
 `
 
