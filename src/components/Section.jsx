@@ -9,7 +9,7 @@ export const Section = styled.div`
         &::before {
             content: "  ";
             position: absolute;
-            width: clamp(40rem, 70vw, 300rem);
+            width: clamp(28rem, 70vw, 300rem);
             height: clamp(45rem, 44vw, 300rem);
             right: 0;
             top: 0;
@@ -31,7 +31,7 @@ export const Section = styled.div`
         &::before {
             content: "  ";
             position: absolute;
-            width: clamp(40rem, 70vw, 300rem);
+            width: clamp(28rem,70vw,300rem);
             height: clamp(45rem, 44vw, 300rem);
             left: 0;
             top: 20rem;
