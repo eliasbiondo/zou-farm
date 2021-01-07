@@ -36,9 +36,9 @@ const NewsCategory = styled.p`
 `
 
 const NewsTitle = styled.h1`
-    font-size: 3.1rem;
+    font-size: clamp(2rem, 5vw, 3.1rem);
     font-weight: bold;
-    line-height: 4.0rem;
+    line-height: clamp(2.9rem, 5vw, 4.0rem);
     max-width: 24.8rem;
     color: white;
     margin-bottom: 1rem;
@@ -47,7 +47,7 @@ const NewsTitle = styled.h1`
 const NewsDescription = styled.p `
     font-size: 1.6rem;
     font-weight: 400;
-    line-height: 2.4rem;
+    line-height: clamp(2rem, 5vw, 2.4rem);
     max-width: 24.8rem;
     margin-bottom: 3rem;
     color: white;

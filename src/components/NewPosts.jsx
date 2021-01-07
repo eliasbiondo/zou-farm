@@ -23,7 +23,7 @@ export function NewPosts() {
             <Subtitle margintop="8rem" marginbottom="2rem">Invest on you convenience</Subtitle>
             <Paragraph maxwidth="70rem" marginbottom="5rem">Autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur</Paragraph>
             <PostCards>
-                <NewPostCard newsimage="/images/first-post-image.png" newscategory="New farms" newstitle="Short terms investment" newsdescription="Invest in farms that will be ready for harvest in 3-18 months" btntext="Browse"/>
+                <NewPostCard newsimage="/images/first-post-image.png" newscategory="New farms" newstitle="Short terms investment" newsdescription="Invest in farms that will be ready for harvest." btntext="Browse"/>
 
                 <NewPostCard newsimage="/images/second-post-image.png" newscategory="Fully funded" newstitle="Long terms
                 investment" newsdescription="Consider farms that have long term investment program." btntext="Learn more"/>
