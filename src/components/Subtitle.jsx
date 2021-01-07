@@ -7,5 +7,5 @@ export const Subtitle = styled.h2`
     margin-top: ${props => props.margintop || 'none'};
     margin-bottom: ${props => props.marginbottom || 'none'};
     color: ${props => props.color || 'black'};
-    text-align: ${props => props.textalign || 'left'}
+    text-align: ${props => props.align || 'left'}
 `

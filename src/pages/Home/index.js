@@ -14,6 +14,7 @@ import {HamburguerMenu} from '../../components/HamburguerBtn'
 import {MainBanner} from '../../components/MainBanner'
 import {Opportunities} from '../../components/Opportunities'
 import { NewPosts } from '../../components/NewPosts';
+import { HowItWorks } from '../../components/HowItWorks';
 
 function Home(){
 
@@ -84,6 +85,11 @@ function Home(){
             <Section newposts>
                 <Container>
                     <NewPosts />
+                </Container>
+            </Section>
+            <Section>
+                <Container>
+                    <HowItWorks />
                 </Container>
             </Section>
        </div>
