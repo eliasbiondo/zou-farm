@@ -13,7 +13,7 @@ const NewPostsStyle = styled.div`
 const PostCards = styled.div`
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(51.2rem, 1fr)); /* see notes below */
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     grid-gap: 2rem;
 `
 

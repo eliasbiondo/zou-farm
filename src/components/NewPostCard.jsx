@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { Button } from './Button'
 
 const NewPostCardStyle = styled.div`
-    min-width: 51.2rem;
+    min-width: 24rem;
     height: 45.5rem;
     padding: 4.8rem 7.2rem;
     margin-bottom: 5rem;
