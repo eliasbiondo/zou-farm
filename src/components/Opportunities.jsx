@@ -17,7 +17,7 @@ const OpportunitiesStyle = styled.div`
 export function Opportunities(props) {
     return (
         <OpportunitiesStyle>
-            <Subtitle textalign="center">New Opportunities</Subtitle>
+            <Subtitle align="center">New Opportunities</Subtitle>
             <Paragraph align="center" marginbottom="10rem" width="56rem">We are the first and the only crowdfunding platform enabling you to help finance our farmers    </Paragraph>
             <ResponsiveFlex>
                 <Card iconsrc="/images/farmers-icon.svg" iconalt="Farmers icon" title="Connect with our 
